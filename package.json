@@ -1,0 +1,45 @@
+{
+  "name": "@dword-design/nuxt-dev-server",
+  "version": "1.0.0",
+  "repository": "dword-design/nuxt-dev-server",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "depcheck": "base depcheck",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0",
+    "h3": "^1.0.2",
+    "listhen": "^1.0.1",
+    "nuxt": "^3.0.0"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^9.2.4",
+    "@dword-design/functions": "^4.1.0",
+    "@dword-design/puppeteer": "^6.0.2",
+    "@dword-design/tester": "^2.0.12",
+    "@dword-design/tester-plugin-puppeteer": "^2.1.22",
+    "@dword-design/tester-plugin-tmp-dir": "^2.1.8",
+    "fs-extra": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
