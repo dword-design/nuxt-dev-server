@@ -4,8 +4,7 @@ import { listen } from 'listhen'
 import { build } from 'nuxt'
 
 export default async (options = {}) => {
-  const nuxt = await loadNuxt({ ...options, dev: true, ready: false })
-  await nuxt.ready()
+  const nuxt = await loadNuxt({ ...options, dev: true })
 
   const listener = await listen(toNodeListener(nuxt.server.app))
 
