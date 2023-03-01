@@ -22,10 +22,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.0.0",
-    "h3": "^1.0.2",
-    "listhen": "^1.0.1",
-    "nuxt": "^3.0.0"
+    "nuxi": "npm:@dword-design/nuxi"
   },
   "devDependencies": {
     "@dword-design/base": "^9.2.4",
@@ -35,6 +32,7 @@
     "@dword-design/tester-plugin-puppeteer": "^2.1.22",
     "@dword-design/tester-plugin-tmp-dir": "^2.1.8",
     "fs-extra": "^11.1.0",
+    "nuxt": "^3.2.3",
     "output-files": "^2.0.11"
   },
   "engines": {

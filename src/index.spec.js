@@ -7,7 +7,6 @@ import outputFiles from 'output-files'
 import P from 'path'
 
 import self from './index.js'
-
 export default tester(
   {
     async works() {
@@ -20,7 +19,7 @@ export default tester(
         `,
       })
 
-      const nuxt = await self()
+      const nuxt = await self({ config: { telemetry: false } })
       await this.page.goto('http://localhost:3000')
       await this.page.waitForSelector('.foo')
       await fs.outputFile(
