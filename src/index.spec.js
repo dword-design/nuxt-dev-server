@@ -5,8 +5,11 @@ import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir'
 import fs from 'fs-extra'
 import outputFiles from 'output-files'
 import P from 'path'
+import kill from 'tree-kill-promise'
+import { execaCommand } from 'execa'
 
 import self from './index.js'
+
 export default tester(
   {
     async works() {
@@ -19,7 +22,9 @@ export default tester(
         `,
       })
 
-      const nuxt = await self({ config: { telemetry: false } })
+      //const nuxt = await self({ config: { telemetry: false } })
+      const childProcess = execaCommand('nuxt dev', { stdio: 'inherit', env: { NODE_ENV: '' } })
+      await new Promise(resolve => setTimeout(resolve, 10000))
       await this.page.goto('http://localhost:3000')
       await this.page.waitForSelector('.foo')
       await fs.outputFile(
@@ -31,7 +36,8 @@ export default tester(
     `
       )
       await this.page.waitForSelector('.bar')
-      await nuxt.close()
+      //await nuxt.close()
+      await kill(childProcess.pid)
     },
   },
   [testerPluginTmpDir(), testerPluginPuppeteer()]

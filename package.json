@@ -22,7 +22,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "nuxi": "npm:@dword-design/nuxi"
+    "nuxi": "^3.2.3"
   },
   "devDependencies": {
     "@dword-design/base": "^9.2.4",
@@ -31,9 +31,11 @@
     "@dword-design/tester": "^2.0.12",
     "@dword-design/tester-plugin-puppeteer": "^2.1.22",
     "@dword-design/tester-plugin-tmp-dir": "^2.1.8",
+    "execa": "^7.0.0",
     "fs-extra": "^11.1.0",
     "nuxt": "^3.2.3",
-    "output-files": "^2.0.11"
+    "output-files": "^2.0.11",
+    "tree-kill-promise": "^3.0.1"
   },
   "engines": {
     "node": ">=14"
