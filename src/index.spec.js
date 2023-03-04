@@ -54,7 +54,6 @@ export default tester(
         </template>
       `
         )
-        await this.page.reload()
         await this.page.waitForSelector('.bar')
       } finally {
         await devServer.close()
