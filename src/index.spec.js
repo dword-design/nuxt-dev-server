@@ -11,14 +11,7 @@ import self from './index.js'
 export default tester(
   {
     config: async () => {
-      await outputFiles({
-        'package.json': JSON.stringify({ type: 'module' }),
-        'pages-new/index.vue': endent`
-          <template>
-            <div class="foo" />
-          </template>
-        `,
-      })
+      await fs.outputFile('package.json', JSON.stringify({ type: 'module' }))
 
       const devServer = await self({
         config: {
