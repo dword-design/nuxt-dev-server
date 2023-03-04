@@ -1,0 +1,9 @@
+{
+  "name": "@dword-design/node",
+  "depcheckConfig": {
+    "ignoreMatches": [
+      "nuxt"
+    ]
+  },
+  "windows": false
+}
