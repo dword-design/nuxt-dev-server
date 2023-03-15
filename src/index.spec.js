@@ -42,10 +42,10 @@ export default tester(
         await fs.outputFile(
           P.join('pages', 'index.vue'),
           endent`
-        <template>
-          <div class="bar" />
-        </template>
-      `
+            <template>
+              <div class="bar" />
+            </template>
+          `,
         )
         await this.page.waitForSelector('.bar')
       } finally {
@@ -53,5 +53,5 @@ export default tester(
       }
     },
   },
-  [testerPluginTmpDir(), testerPluginPuppeteer()]
+  [testerPluginTmpDir(), testerPluginPuppeteer()],
 )
