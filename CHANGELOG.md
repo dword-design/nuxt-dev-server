@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/nuxt-dev-server/compare/v1.0.5...v1.0.6) (2023-03-18)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-tmp-dir to v2.1.14 ([4a7b850](https://github.com/dword-design/nuxt-dev-server/commit/4a7b8503f84d2db22049f06380c83e96e1a9a707))
+
 ## [1.0.5](https://github.com/dword-design/nuxt-dev-server/compare/v1.0.4...v1.0.5) (2023-03-18)
 
 
