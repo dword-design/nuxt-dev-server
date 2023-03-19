@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/dword-design/nuxt-dev-server/compare/v1.0.10...v1.0.11) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency output-files to v2.0.18 ([e08244d](https://github.com/dword-design/nuxt-dev-server/commit/e08244d1b98144878ac10052be7ce90834b4509e))
+
 ## [1.0.10](https://github.com/dword-design/nuxt-dev-server/compare/v1.0.9...v1.0.10) (2023-03-19)
 
 
