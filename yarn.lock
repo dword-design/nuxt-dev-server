@@ -1715,9 +1715,9 @@
     xvfb "^0.4.0"
 
 "@dword-design/tester-plugin-tmp-dir@^2.1.8":
-  version "2.1.15"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.15.tgz#015970528d54870c7359212f27b88cffc0995d9b"
-  integrity sha512-XXfGz6y6ov5zDk22owuh84Jw0Teb3odlSjWljF9ZRzRGpzK/TjNImb26sTTUEITbn+9CluMB+1h7pWWZjN1w6g==
+  version "2.1.17"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.17.tgz#beb3f4a0d78273fd76a33c1d57b68b9776495f0f"
+  integrity sha512-aTXk6vpcYD3w9WCEQ7KOrUIr3zI6H5/RVU1ZZzvAOfhe4mIWuqzbmDtvQnQtY6pU3Mv2tw7OEzjoMbarY5MuWQ==
   dependencies:
     with-local-tmp-dir "^5.0.0"
 
