@@ -1,3 +1,11 @@
+## [1.0.14](https://github.com/dword-design/nuxt-dev-server/compare/v1.0.13...v1.0.14) (2023-03-20)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.40 ([886a8de](https://github.com/dword-design/nuxt-dev-server/commit/886a8de7d25bceb8e7e961dcdcb73e35fba8acba))
+* update dependency fs-extra to v11.1.1 ([9dc265a](https://github.com/dword-design/nuxt-dev-server/commit/9dc265a7e48d8b79abf034fb2a3619fbea982924))
+
 ## [1.0.13](https://github.com/dword-design/nuxt-dev-server/compare/v1.0.12...v1.0.13) (2023-03-20)
 
 
